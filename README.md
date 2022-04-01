@@ -28,5 +28,7 @@
     username = Profit Reporter
     message = Profit Report! @everyone
     title = Profit Report!
+    
+    - Message me on Discord if you have an questions. Recrucity#4040 -
   </body>
 </html>
