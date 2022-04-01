@@ -2,7 +2,7 @@
 
 <html>
   <body>
-    Get a profit report on discord on if you have made or lost robux.
+    Get a profit report every so often on how much robux you've made / lost. (In RAP)
 
     --- Config Explanation ---
 
