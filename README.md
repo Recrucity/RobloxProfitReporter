@@ -29,6 +29,11 @@
     message = Profit Report! @everyone
     title = Profit Report!
     
+    --- Common Issues ---
+     - Program crashing on launch (Using the latest .exe release)
+     The first time you open the program, there should not be a file called lasttime.txt.
+     (This only applies to first time, other times it doesn't matter!)
+    
     - Message me on Discord if you have an questions. Recrucity#4040 -
   </body>
 </html>
