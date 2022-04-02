@@ -1,12 +1,10 @@
 # Made by Recrucity#4040
-# TODO: Embeds say how often profit reports are sent // DONE
-# TODO: Style improvements. (Code blocks over robux profit etc) // DONE
-# TODO: Add Mutli-Account Support (Maybe difficult, Probably not that difficult)
 
 import requests
 import configparser
 import os
 import time
+import colorama
 from colorama import init
 
 init()
