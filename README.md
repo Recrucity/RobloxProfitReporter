@@ -23,7 +23,6 @@
     checktime = 86400
 
     [discord]
-
     webhook = https://discord.com/api/webhooks/959526308482805780/hB4KMPZZ7hOC3qYJJJdVcujXj76jFJRG9TY_tQhfKwHGI-lTx_shdFkA1oymMNppw2v8
     username = Profit Reporter
     message = Profit Report! @everyone
