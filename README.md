@@ -33,6 +33,11 @@
      The first time you open the program, there should not be a file called lasttime.txt.
      (This only applies to first time, other times it doesn't matter!)
     
+    - Program crashing on launch (Using the latest .py file)
+    Make sure you have the following installed with python:
+    requests, configparser, colorama
+    To install one of them, open cmd/terminal and type "pip install [packagename"
+    
     - Message me on Discord if you have an questions. Recrucity#4040 -
   </body>
 </html>
