@@ -15,6 +15,18 @@ config.read_file(open(r"config.ini"))
 timeType = config.get("main", "time")
 checkTime = int(config.get("main", "checktime"))
 userId = config.get("main", "userid")
+rolimonsEndpint = "https://www.rolimons.com/itemapi/itemdetails"
+
+# Rolimons API for values!
+def getItemValue(itemId: int):
+    # Get the item value from the rolimons API
+    # itemId: int
+    # return: int or None
+    
+    items = requests.get(rolimonsEndpint).json()["items"]
+    value = items[str(itemId)][3] or -1
+    return value if value > 0 else None
+
 
 # Discord
 webhook = str(config.get("discord", "webhook"))
@@ -31,7 +43,8 @@ while True:
 
     for i in range(itemAmount):
         itemData = data[i]
-        itemRap = itemData["recentAveragePrice"]
+        
+        itemRap = getItemValue(itemData["assetId"]) or itemData["recentAveragePrice"]
 
         userRap = userRap + itemRap
         print(
