@@ -24,7 +24,7 @@ def getItemValue(itemId: int):
     # return: int or None
     
     items = requests.get(rolimonsEndpint).json()["items"]
-    value = items[str(itemId)][3] or None
+    value = items[str(itemId)][3] or -1
     return value if value > 0 else None
 
 
